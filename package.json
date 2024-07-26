@@ -1,0 +1,25 @@
+{
+  "name": "dzap-nft-staking",
+  "version": "1.0.0",
+  "description": "Smart contract for staking NFTs with ERC20 rewards",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@openzeppelin/contracts": "^5.0.2",
+    "eth-gas-reporter": "^0.2.25",
+    "ethers": "^5.7.2"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.6"
+  },
+  "overrides": {
+    "ws": "8.18.0"
+  }
+}
